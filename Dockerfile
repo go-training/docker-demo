@@ -4,6 +4,6 @@ FROM golang:1.21-alpine
 WORKDIR /src
 COPY . .
 RUN go mod download
-RUN go build -o /bin/app
+RUN go build -v -o /bin/app
 
 ENTRYPOINT [ "/bin/app" ]
