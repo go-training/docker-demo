@@ -2,6 +2,14 @@
 
 Dockerfile demo
 
+## How to login Docker Hub
+
+```bash
+docker login -u appleboy
+```
+
+create access token from [Docker Hub](https://hub.docker.com/settings/security)
+
 ## How to enable [Docker BuildKit](https://docs.docker.com/build/buildkit/)
   
 ```bash
