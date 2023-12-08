@@ -26,9 +26,7 @@ curl localhost:1234/ping
 export DOCKER_BUILDKIT=1
 ```
 
-or 
-
-update the `/etc/docker/daemon.json` file
+or update the `/etc/docker/daemon.json` file
 
 ```json
 {
