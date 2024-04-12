@@ -34,7 +34,6 @@ changelog:
   #
   # Default is no groups.
   groups:
-  groups:
     - title: Features
       regexp: "^.*feat[(\\w)]*:+.*$"
       order: 0
