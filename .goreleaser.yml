@@ -54,3 +54,9 @@ changelog:
       order: 4
     - title: Others
       order: 999
+
+gitea_urls:
+  api: https://corp.gitea.com/api/v1
+  download: https://corp.gitea.com
+  # set to true if you use a self-signed certificate
+  skip_tls_verify: false
